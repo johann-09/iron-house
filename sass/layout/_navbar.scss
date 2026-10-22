@@ -1,0 +1,54 @@
+@use "../utilidades/variables" as v;
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    width: 100%;
+    background-color: v.$c-negro;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.link-nav {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.link-tit {
+    font-family: v.$f-titulo;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: v.$c-blanco;
+
+    transition: all 0.3s linear;
+
+    &:hover {
+        color: #d6d3d3;
+    }
+}
+
+.link-bt {
+    font-family: v.$f-texto;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: v.$c-blanco;
+    width: fit-content;
+    background-color: v.$azul-destacado;
+    padding: 1rem 1.3rem;
+    border-radius: 40px;
+
+    transition: all 0.3s linear;
+
+    &:hover {
+        background-color: v.$azul-hover;
+    }
+}
