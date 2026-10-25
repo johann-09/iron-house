@@ -3,7 +3,6 @@
 .hero-seccion{
     background: linear-gradient(v.$c-blanco 0 50%, v.$azul-destacado 50%);
     padding: 1rem 1.5rem;
-    height: 100vh;
 }
 
 .tit-hero{
@@ -56,4 +55,10 @@
     background-color: v.$c-blanco;
     padding: 1rem 2rem;
     border-radius: 50px;
+
+    transition: all 0.3s linear;
+
+    &:hover{
+        background-color: #dadada;
+    }
 }

@@ -1,0 +1,58 @@
+@use "../utilidades/variables" as v;
+
+footer{
+    background-color: v.$c-negro;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer h2{
+    font-family: v.$f-titulo;
+    font-size: 4rem;
+    font-weight: 500;
+    color: v.$c-blanco;
+}
+
+footer p{
+    font-family: v.$f-texto;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #b8b4b4;
+}
+
+.cont-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-bottom: 1.3rem;
+    border-bottom: 2px solid #313131;
+}
+
+.caja-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.caja-footer h3{
+    font-family: v.$f-texto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #b8b4b4;
+}
+
+.list-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.list-footer a{
+    font-family: v.$f-texto;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: v.$c-blanco;
+}

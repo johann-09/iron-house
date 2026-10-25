@@ -14,6 +14,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -65,7 +69,6 @@ header {
 .hero-seccion {
   background: linear-gradient(#FFFFFF 0 50%, #2F46FF 50%);
   padding: 1rem 1.5rem;
-  height: 100vh;
 }
 
 .tit-hero {
@@ -118,6 +121,214 @@ header {
   background-color: #FFFFFF;
   padding: 1rem 2rem;
   border-radius: 50px;
+  transition: all 0.3s linear;
+}
+.bt-blanco:hover {
+  background-color: #dadada;
+}
+
+.motivacion-seccion {
+  background-color: #dddddd;
+  padding: 2rem 1.5rem;
+}
+
+.cont-mot {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.tit-moti {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.cont-mot ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.item-desc {
+  border-top: 2px solid #44464b;
+  padding: 1rem 0.3rem;
+}
+
+.item-desc h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+}
+
+.item-desc p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #44464b;
+}
+
+.muestra-pro-seccion {
+  background-color: #FFFFFF;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.muestra-pro-seccion h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 3.5rem;
+}
+
+.cont-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 30px;
+}
+
+.card p {
+  font-family: "Oswald", sans-serif;
+  font-size: 3.5rem;
+}
+
+.card h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.card a {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
+  padding: 1rem 1.5rem;
+  border-radius: 50px;
+  width: fit-content;
+}
+
+.card-negra {
+  background-color: #0D0D0D;
+}
+
+.card-negra p {
+  color: #FFFFFF;
+}
+
+.card-negra h3 {
+  color: #FFFFFF;
+}
+
+.card-negra a {
+  background-color: #2F46FF;
+  color: #FFFFFF;
+  transition: all 0.3s linear;
+}
+.card-negra a:hover {
+  background-color: #1B2BB8;
+}
+
+.card-blanca {
+  border: 2px solid #0D0D0D;
+}
+
+.card-blanca a {
+  background-color: #0D0D0D;
+  color: #FFFFFF;
+  transition: all 0.3s linear;
+}
+.card-blanca a:hover {
+  background-color: #8b8b8b;
+  color: #0D0D0D;
+  border: 2px solid #0D0D0D;
+}
+
+.card-azul {
+  background-color: #2F46FF;
+}
+
+.card-azul p {
+  color: #FFFFFF;
+}
+
+.card-azul h3 {
+  color: #FFFFFF;
+}
+
+.card-azul a {
+  background-color: #FFFFFF;
+  color: #2F46FF;
+  transition: all 0.3s linear;
+}
+.card-azul a:hover {
+  background-color: #dadada;
+}
+
+.borde-negro {
+  border: 3px solid #0D0D0D;
+}
+
+footer {
+  background-color: #0D0D0D;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+footer h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+footer p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #b8b4b4;
+}
+
+.cont-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-bottom: 1.3rem;
+  border-bottom: 2px solid #313131;
+}
+
+.caja-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.caja-footer h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #b8b4b4;
+}
+
+.list-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.list-footer a {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */

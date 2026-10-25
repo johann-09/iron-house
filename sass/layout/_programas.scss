@@ -1,0 +1,123 @@
+@use "../utilidades/variables" as v;
+
+// Parte del inicio
+
+.muestra-pro-seccion{
+    background-color: v.$c-blanco;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.muestra-pro-seccion h2{
+    font-family: v.$f-titulo;
+    font-size: 3.5rem;
+}
+
+.cont-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 30px;
+}
+
+.card p{
+    font-family: v.$f-titulo;
+    font-size: 3.5rem;
+}
+
+.card h3{
+    font-family: v.$f-titulo;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.card a{
+    font-family: v.$f-texto;
+    font-size: 1.3rem;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+// CARD NEGRA
+.card-negra{
+    background-color: v.$c-negro;
+}
+
+.card-negra p{
+    color: v.$c-blanco;
+}
+
+.card-negra h3{
+    color: v.$c-blanco;
+}
+
+.card-negra a{
+    background-color: v.$azul-destacado;
+    color: v.$c-blanco;
+
+    transition: all 0.3s linear;
+
+    &:hover{
+        background-color: v.$azul-hover;
+    }
+}
+
+// CARD BLANCA
+
+.card-blanca{
+    border: 2px solid v.$c-negro;
+}
+
+.card-blanca a{
+    background-color: v.$c-negro;
+    color: v.$c-blanco;
+
+    transition: all 0.3s linear;
+
+    &:hover{
+        background-color: #8b8b8b;
+        color: v.$c-negro;
+        border: 2px solid v.$c-negro;
+    }
+}
+
+// CARD AZUL
+
+.card-azul{
+    background-color: v.$azul-destacado;
+}
+
+.card-azul p{
+    color: v.$c-blanco;
+}
+
+.card-azul h3{
+    color: v.$c-blanco;
+}
+
+.card-azul a{
+    background-color: v.$c-blanco;
+    color: v.$azul-destacado;
+
+    transition: all 0.3s linear;
+
+    &:hover{
+        background-color: #dadada;
+    }
+}
+
+.borde-negro{
+    border: 3px solid v.$c-negro;
+}
+
+// ----------------
