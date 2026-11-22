@@ -44,7 +44,7 @@
     font-family: v.$f-texto;
     font-size: 1.3rem;
     font-weight: 500;
-    color: v.$c-blanco;
+    color: v.$texto-secundario;
 }
 
 .bt-blanco{
@@ -52,13 +52,13 @@
     font-family: v.$f-texto;
     font-size: 1.5rem;
     color: v.$azul-destacado;
-    background-color: v.$c-blanco;
+    background-color: #c1c1c1;
     padding: 1rem 2rem;
     border-radius: 50px;
 
     transition: all 0.3s linear;
 
     &:hover{
-        background-color: #dadada;
+        background-color: #9e9e9e;
     }
 }

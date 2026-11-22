@@ -2,7 +2,7 @@
 
 // Parte del inicio
 
-.muestra-pro-seccion{
+.muestra-pro-seccion {
     background-color: v.$c-blanco;
     padding: 2rem 1.5rem;
     display: flex;
@@ -10,18 +10,18 @@
     gap: 2rem;
 }
 
-.muestra-pro-seccion h2{
+.muestra-pro-seccion h2 {
     font-family: v.$f-titulo;
     font-size: 3.5rem;
 }
 
-.cont-cards{
+.cont-cards {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.card{
+.card {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -29,18 +29,19 @@
     border-radius: 30px;
 }
 
-.card p{
-    font-family: v.$f-titulo;
-    font-size: 3.5rem;
+.card p {
+    font-family: v.$f-texto;
+    font-size: 1.3rem;
 }
 
-.card h3{
+.card h3,
+.card h2 {
     font-family: v.$f-titulo;
     font-size: 2.5rem;
     font-weight: 500;
 }
 
-.card a{
+.card a {
     font-family: v.$f-texto;
     font-size: 1.3rem;
     padding: 1rem 1.5rem;
@@ -49,42 +50,43 @@
 }
 
 // CARD NEGRA
-.card-negra{
+.card-negra {
     background-color: v.$c-negro;
 }
 
-.card-negra p{
+.card-negra p {
     color: v.$c-blanco;
 }
 
-.card-negra h3{
+.card-negra h3,
+.card-negra h2 {
     color: v.$c-blanco;
 }
 
-.card-negra a{
+.card-negra a {
     background-color: v.$azul-destacado;
     color: v.$c-blanco;
 
     transition: all 0.3s linear;
 
-    &:hover{
+    &:hover {
         background-color: v.$azul-hover;
     }
 }
 
 // CARD BLANCA
 
-.card-blanca{
+.card-blanca {
     border: 2px solid v.$c-negro;
 }
 
-.card-blanca a{
+.card-blanca a {
     background-color: v.$c-negro;
     color: v.$c-blanco;
 
     transition: all 0.3s linear;
 
-    &:hover{
+    &:hover {
         background-color: #8b8b8b;
         color: v.$c-negro;
         border: 2px solid v.$c-negro;
@@ -93,31 +95,98 @@
 
 // CARD AZUL
 
-.card-azul{
+.card-azul {
     background-color: v.$azul-destacado;
 }
 
-.card-azul p{
+.card-azul p {
     color: v.$c-blanco;
 }
 
-.card-azul h3{
+.card-azul h3,
+.card-azul h2 {
     color: v.$c-blanco;
 }
 
-.card-azul a{
+.card-azul a {
     background-color: v.$c-blanco;
     color: v.$azul-destacado;
 
     transition: all 0.3s linear;
 
-    &:hover{
+    &:hover {
         background-color: #dadada;
     }
 }
 
-.borde-negro{
+.borde-negro {
     border: 3px solid v.$c-negro;
 }
 
 // ----------------
+
+// Página de programas
+
+.cont-pro-tit {
+    background-color: v.$azul-destacado;
+    text-align: start;
+    padding: 0.8rem 1rem;
+}
+
+.cont-pro-tit h1 {
+    font-family: v.$f-titulo;
+    font-size: 4.3rem;
+    color: v.$c-blanco;
+}
+
+.cont-pro-tit p {
+    font-family: v.$f-texto;
+    font-size: 1.3rem;
+    color: v.$c-blanco;
+}
+
+.cont-cards-pro {
+    padding: 1.2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card-img-card {
+    border-radius: 35px;
+}
+
+.card__numero__blanco {
+    color: v.$c-blanco;
+    font-family: v.$f-titulo;
+    font-size: 3.5rem;
+}
+
+.card__numero__negro {
+    color: v.$c-negro;
+    font-family: v.$f-titulo;
+    font-size: 3.5rem;
+}
+
+.card__etiquetas {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.card__etiquetas li {
+    color: v.$c-blanco;
+    font-family: v.$f-texto;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: 2px solid v.$c-blanco;
+    border-radius: 50px;
+    padding: 8px 10px;
+}
+
+.eti__negro li {
+    color: v.$c-negro;
+    border: 2px solid v.$c-negro;
+}

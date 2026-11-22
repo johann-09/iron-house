@@ -55,4 +55,10 @@ footer p{
     font-size: 1.1rem;
     font-weight: 700;
     color: v.$c-blanco;
+
+    transition: all 0.3s linear;
+
+    &:hover{
+        color: v.$azul-destacado;
+    }
 }

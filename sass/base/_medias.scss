@@ -1,0 +1,110 @@
+// MEDIAS QUERIES
+
+// DESKTOP
+
+@media (min-width: 1000px){
+    
+    // NABVAR
+
+    .navbar{
+        padding: 0.8rem;
+    }
+
+    // HERO
+
+    .hero-seccion{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desc-bt{
+        text-align: center;
+    }
+
+    .bt-blanco{
+        margin: 0 auto;
+    }
+
+    .img-hero{
+        width: 700px;
+        height: 400px;
+    }
+
+    // MOTIVACION
+
+    .motivacion-seccion{
+        padding: 3rem 1rem;
+    }
+
+    .cont-mot{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .tit-moti{
+        font-size: 4rem;
+        width: 40%;
+    }
+
+    // PROGRAMAS
+
+    .muestra-pro-seccion{
+        padding: 2.5rem 3rem;
+    }
+
+    .muestra-pro-seccion h2{
+        font-size: 4rem;
+    }
+
+    .cont-cards{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .cont-pro-tit {
+        text-align: center;
+    }
+
+    .cont-pro-tit h1 {
+        font-size: 8rem;
+    }
+
+    .cont-cards-pro {
+        padding: 3rem 2rem;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .card {
+        padding: 1.5rem;
+    }
+
+    .card h2 {
+        font-size: 3rem;
+    }
+
+    .card-img-card {
+        width: 300px;
+        height: 200px;
+    }
+
+    .card p {
+        font-size: 1rem;
+    }
+
+    .card__etiquetas li {
+        font-size: 1rem;
+    }
+
+
+    // FOOTER
+
+    footer{
+        padding: 2rem 3rem;
+    }
+
+    footer h2{
+        font-size: 5rem;
+    }
+}

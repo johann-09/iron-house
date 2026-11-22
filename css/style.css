@@ -110,7 +110,7 @@ header {
   font-family: "Nunito", sans-serif;
   font-size: 1.3rem;
   font-weight: 500;
-  color: #FFFFFF;
+  color: #44464b;
 }
 
 .bt-blanco {
@@ -118,13 +118,13 @@ header {
   font-family: "Nunito", sans-serif;
   font-size: 1.5rem;
   color: #2F46FF;
-  background-color: #FFFFFF;
+  background-color: #c1c1c1;
   padding: 1rem 2rem;
   border-radius: 50px;
   transition: all 0.3s linear;
 }
 .bt-blanco:hover {
-  background-color: #dadada;
+  background-color: #9e9e9e;
 }
 
 .motivacion-seccion {
@@ -195,11 +195,12 @@ header {
 }
 
 .card p {
-  font-family: "Oswald", sans-serif;
-  font-size: 3.5rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
 }
 
-.card h3 {
+.card h3,
+.card h2 {
   font-family: "Oswald", sans-serif;
   font-size: 2.5rem;
   font-weight: 500;
@@ -221,7 +222,8 @@ header {
   color: #FFFFFF;
 }
 
-.card-negra h3 {
+.card-negra h3,
+.card-negra h2 {
   color: #FFFFFF;
 }
 
@@ -257,7 +259,8 @@ header {
   color: #FFFFFF;
 }
 
-.card-azul h3 {
+.card-azul h3,
+.card-azul h2 {
   color: #FFFFFF;
 }
 
@@ -272,6 +275,70 @@ header {
 
 .borde-negro {
   border: 3px solid #0D0D0D;
+}
+
+.cont-pro-tit {
+  background-color: #2F46FF;
+  text-align: start;
+  padding: 0.8rem 1rem;
+}
+
+.cont-pro-tit h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 4.3rem;
+  color: #FFFFFF;
+}
+
+.cont-pro-tit p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+}
+
+.cont-cards-pro {
+  padding: 1.2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card-img-card {
+  border-radius: 35px;
+}
+
+.card__numero__blanco {
+  color: #FFFFFF;
+  font-family: "Oswald", sans-serif;
+  font-size: 3.5rem;
+}
+
+.card__numero__negro {
+  color: #0D0D0D;
+  font-family: "Oswald", sans-serif;
+  font-size: 3.5rem;
+}
+
+.card__etiquetas {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.card__etiquetas li {
+  color: #FFFFFF;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: 2px solid #FFFFFF;
+  border-radius: 50px;
+  padding: 8px 10px;
+}
+
+.eti__negro li {
+  color: #0D0D0D;
+  border: 2px solid #0D0D0D;
 }
 
 footer {
@@ -329,6 +396,85 @@ footer p {
   font-size: 1.1rem;
   font-weight: 700;
   color: #FFFFFF;
+  transition: all 0.3s linear;
+}
+.list-footer a:hover {
+  color: #2F46FF;
+}
+
+@media (min-width: 1000px) {
+  .navbar {
+    padding: 0.8rem;
+  }
+  .hero-seccion {
+    display: flex;
+    flex-direction: column;
+  }
+  .desc-bt {
+    text-align: center;
+  }
+  .bt-blanco {
+    margin: 0 auto;
+  }
+  .img-hero {
+    width: 700px;
+    height: 400px;
+  }
+  .motivacion-seccion {
+    padding: 3rem 1rem;
+  }
+  .cont-mot {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .tit-moti {
+    font-size: 4rem;
+    width: 40%;
+  }
+  .muestra-pro-seccion {
+    padding: 2.5rem 3rem;
+  }
+  .muestra-pro-seccion h2 {
+    font-size: 4rem;
+  }
+  .cont-cards {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .cont-pro-tit {
+    text-align: center;
+  }
+  .cont-pro-tit h1 {
+    font-size: 8rem;
+  }
+  .cont-cards-pro {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .card {
+    padding: 1.5rem;
+  }
+  .card h2 {
+    font-size: 3rem;
+  }
+  .card-img-card {
+    width: 300px;
+    height: 200px;
+  }
+  .card p {
+    font-size: 1rem;
+  }
+  .card__etiquetas li {
+    font-size: 1rem;
+  }
+  footer {
+    padding: 2rem 3rem;
+  }
+  footer h2 {
+    font-size: 5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
