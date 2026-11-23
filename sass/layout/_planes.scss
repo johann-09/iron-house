@@ -1,0 +1,117 @@
+@use "../utilidades/variables" as v;
+
+.planes-body {
+    background-color: #141414;
+}
+
+.cont-planes-tit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.cont-planes-tit h1 {
+    color: v.$c-blanco;
+    font-family: v.$f-titulo;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.cont-planes-tit p {
+    color: v.$c-blanco;
+    font-family: v.$f-texto;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.cont-planes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0.8rem;
+}
+
+.card__negra,
+.card__azul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 2rem 1.5rem;
+    border-radius: 35px;
+}
+
+.card__negra {
+    background-color: v.$c-negro;
+    color: v.$c-blanco;
+    border: 2px solid v.$c-blanco;
+}
+
+.card__negra h2 {
+    font-family: v.$f-titulo;
+    font-size: 3rem;
+}
+
+.card__precio {
+    color: v.$azul-suave;
+    font-family: v.$f-titulo;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.card__list li {
+    font-family: v.$f-texto;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.btn-planes {
+    display: inline-block;
+    background-color: v.$c-blanco;
+    color: v.$c-negro;
+    font-family: v.$f-texto;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 50px;
+
+    transition: all 0.5s linear;
+
+    &:hover {
+        background-color: v.$azul-destacado;
+        color: v.$c-blanco;
+        border: 2px solid v.$c-blanco;
+    }
+}
+
+.card__azul {
+    background-color: v.$azul-destacado;
+    border: 2px solid v.$c-blanco;
+}
+
+.card__azul h2 {
+    color: v.$c-blanco;
+    font-family: v.$f-titulo;
+    font-size: 3rem;
+}
+
+.precio-blanco {
+    color: v.$c-blanco;
+}
+
+.card__list-blanco li {
+    color: v.$c-blanco;
+}
+
+.btn-azul {
+    background-color: v.$c-blanco;
+    color: v.$azul-destacado;
+
+    &:hover{
+        background-color: v.$c-negro;
+        border: 2px solid v.$c-blanco;
+    }
+}

@@ -2,61 +2,61 @@
 
 // DESKTOP
 
-@media (min-width: 1000px){
-    
+@media (min-width: 1000px) {
+
     // NABVAR
 
-    .navbar{
+    .navbar {
         padding: 0.8rem;
     }
 
     // HERO
 
-    .hero-seccion{
+    .hero-seccion {
         display: flex;
         flex-direction: column;
     }
 
-    .desc-bt{
+    .desc-bt {
         text-align: center;
     }
 
-    .bt-blanco{
+    .bt-blanco {
         margin: 0 auto;
     }
 
-    .img-hero{
+    .img-hero {
         width: 700px;
         height: 400px;
     }
 
     // MOTIVACION
 
-    .motivacion-seccion{
+    .motivacion-seccion {
         padding: 3rem 1rem;
     }
 
-    .cont-mot{
+    .cont-mot {
         flex-direction: row;
         justify-content: center;
     }
 
-    .tit-moti{
+    .tit-moti {
         font-size: 4rem;
         width: 40%;
     }
 
     // PROGRAMAS
 
-    .muestra-pro-seccion{
+    .muestra-pro-seccion {
         padding: 2.5rem 3rem;
     }
 
-    .muestra-pro-seccion h2{
+    .muestra-pro-seccion h2 {
         font-size: 4rem;
     }
 
-    .cont-cards{
+    .cont-cards {
         flex-direction: row;
         justify-content: center;
     }
@@ -97,14 +97,37 @@
         font-size: 1rem;
     }
 
+    // PLANES
+
+    .cont-planes-tit h1 {
+        font-size: 8rem;
+    }
+
+    .cont-planes-tit p {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .cont-planes {
+        flex-direction: row;
+        justify-content: center;
+        gap: 3.4rem;
+        padding: 3rem 0.8rem;
+    }
+
+    .card__negra,
+    .card__azul {
+        padding: 2rem;
+    }
+
 
     // FOOTER
 
-    footer{
+    footer {
         padding: 2rem 3rem;
     }
 
-    footer h2{
+    footer h2 {
         font-size: 5rem;
     }
 }
