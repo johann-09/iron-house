@@ -62,3 +62,30 @@ footer p{
         color: v.$azul-destacado;
     }
 }
+
+// Secion del menú
+
+.cont-menu {
+    background-color: v.$c-negro;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 1rem;
+    border-radius: 35px;
+}
+
+.menu-cont a {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    font-family: v.$f-titulo;
+    font-size: 2.3rem;
+    font-weight: 700;
+    padding: 0.8rem 0;
+    color: v.$c-blanco;
+    border-bottom: 2px solid #1a1919;
+
+    transition: all 0.5s linear;
+
+    &:hover{
+        color: v.$azul-suave;
+    }
+}

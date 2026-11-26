@@ -1,0 +1,68 @@
+@use "../utilidades/variables" as v;
+
+.tit-img-cont {
+    padding: 1.5rem 1.6rem 0 1.6rem;
+}
+
+.contactos-cont {
+    display: flex;
+    flex-direction: column;
+    background-color: v.$azul-destacado;
+}
+
+.cont-info {
+    padding: 1rem 1.2rem;
+    border-bottom: 2px solid v.$c-blanco;
+}
+
+.cont-info-ul {
+    padding: 1rem 1.2rem;
+}
+
+.cont-info-ul p {
+    font-family: v.$f-texto;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #cacaca;
+}
+
+.cont-info-ul h2 {
+    font-family: v.$f-titulo;
+    font-size: 2rem;
+    font-weight: 700;
+    color: v.$c-blanco;
+}
+
+.cont-info p {
+    font-family: v.$f-texto;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #cacaca;
+}
+
+.cont-info h2 {
+    font-family: v.$f-titulo;
+    font-size: 2rem;
+    font-weight: 700;
+    color: v.$c-blanco;
+}
+
+.btn-contacto {
+    display: inline-block;
+    background-color: v.$c-blanco;
+    color: v.$azul-destacado;
+    font-family: v.$f-texto;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 50px;
+
+    transition: all 0.5s linear;
+
+    &:hover{
+        background-color: v.$c-negro;
+        border: 2px solid v.$c-blanco;
+    }
+}

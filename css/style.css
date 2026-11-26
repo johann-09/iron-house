@@ -454,6 +454,71 @@ header {
   border: 2px solid #FFFFFF;
 }
 
+.tit-img-cont {
+  padding: 1.5rem 1.6rem 0 1.6rem;
+}
+
+.contactos-cont {
+  display: flex;
+  flex-direction: column;
+  background-color: #2F46FF;
+}
+
+.cont-info {
+  padding: 1rem 1.2rem;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.cont-info-ul {
+  padding: 1rem 1.2rem;
+}
+
+.cont-info-ul p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #cacaca;
+}
+
+.cont-info-ul h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.cont-info p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #cacaca;
+}
+
+.cont-info h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.btn-contacto {
+  display: inline-block;
+  background-color: #FFFFFF;
+  color: #2F46FF;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 50px;
+  transition: all 0.5s linear;
+}
+.btn-contacto:hover {
+  background-color: #0D0D0D;
+  border: 2px solid #FFFFFF;
+}
+
 footer {
   background-color: #0D0D0D;
   padding: 2rem 1.5rem;
@@ -513,6 +578,29 @@ footer p {
 }
 .list-footer a:hover {
   color: #2F46FF;
+}
+
+.cont-menu {
+  background-color: #0D0D0D;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 1rem;
+  border-radius: 35px;
+}
+
+.menu-cont a {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  padding: 0.8rem 0;
+  color: #FFFFFF;
+  border-bottom: 2px solid #1a1919;
+  transition: all 0.5s linear;
+}
+.menu-cont a:hover {
+  color: #4256ee;
 }
 
 @media (min-width: 1000px) {
@@ -604,6 +692,12 @@ footer p {
   }
   footer h2 {
     font-size: 5rem;
+  }
+  .btn-contacto {
+    font-size: 1rem;
+  }
+  .btn-planes {
+    font-size: 1rem;
   }
 }
 
